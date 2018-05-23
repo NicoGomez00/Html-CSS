@@ -1,0 +1,36 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+nav {
+    text-align: center;
+    background-image: url(https://images.pexels.com/photos/681794/pexels-photo-681794.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+}
+
+#navegador ul{
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+#navegador li{
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+#navegador li#principal{
+    letter-spacing: 6px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#navegador li a{
+    color: black;
+    text-decoration: none;
+    opacity: 0.7;
+}
